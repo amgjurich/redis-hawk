@@ -1,5 +1,5 @@
 #graphsComponentContainer {
-  position: 'relative';
+  position: relative;
   top: 500;
   left: 400;
   height: 55%;
@@ -8,7 +8,7 @@
 }
 
 #eventsComponentContainer {
-  position: 'relative';
+  position: relative;
   top: 500;
   left: 400;
   height: 55%;
@@ -17,7 +17,7 @@
 }
 
 #keyspaceComponent Container {
-  position: 'relative';
+  position: relative;
   top: 500;
   left: 400;
   height: 55%;
@@ -26,7 +26,7 @@
 }
 
 .searchFilterContainer {
-  position: 'relative';
+  position: relative;
   top: 300;
   left: 300;
   height: 8%;
@@ -35,7 +35,7 @@
 }
 
 #databaseNavContainer {
-  position: 'relative';
+  position: relative;
   top: 150;
   height: 70%;
   width: 10%;
@@ -43,7 +43,7 @@
 }
 
 #pageNavContainer {
-  position: 'relative';
+  position: relative;
   top: 150;
   left: 300;
   height: 15%;

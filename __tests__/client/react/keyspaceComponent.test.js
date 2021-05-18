@@ -8,7 +8,6 @@ import renderer from 'react-test-renderer';
 
 import KeyspaceComponent from '../../../client/components/keyspace/KeyspaceComponent.jsx';
 import MainComponent from '../../../client/components/keyspace/MainComponent.jsx';
-import PaginationComponent from '../../../client/components/navbars/PaginationComponent.jsx';
 import KeyListComponent from '../../../client/components/keyspace/KeyListComponent.jsx';
 
 configure({ adapter: new Adapter() });
