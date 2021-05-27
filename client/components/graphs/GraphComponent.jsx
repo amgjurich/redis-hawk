@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import GraphHolder from "./GraphHolder.jsx";
-import { connect } from "react-redux";
-import * as actions from "../../action-creators/connections";
+import React, { Component } from 'react';
+import GraphHolder from './GraphHolder.jsx';
+import { connect } from 'react-redux';
+import * as actions from '../../action-creators/connections';
 
 const mapStateToProps = (store) => {
   return {
@@ -10,8 +10,9 @@ const mapStateToProps = (store) => {
   };
 };
 
+//i don't believe we use either of these
 const mapDispatchToProps = (dispatch) => ({
-  updateCurrentDisplay: (filter, category) =>
+  updateCurrDisplay: (filter, category) =>
     dispatch(actions.updateCurrDisplayActionCreator(filter, category)),
   updateEvents: (instanceId, dbIndex, currIndex) =>
     dispatch(actions.updateEventsActionCreator(instanceId, dbIndex, currIndex)),
